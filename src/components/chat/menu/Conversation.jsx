@@ -64,7 +64,7 @@ const Conversation = ({ user }) => {
     }
 
     return (
-        <Component onClick={() => getUser()} onMouseEnter={(e)=>e.target.style.boxShadow = '1px 2px 9px #b1aaf4' } onMouseLeave={(e)=>e.target.style.boxShadow = '0px 0px 0px #ffff'}>
+        <Component onClick={() => getUser()}>
             <Box>
                 <Image src={url} alt="display picture" />
             </Box>
