@@ -14,6 +14,9 @@ const Component = styled(Box)`
     display: flex;
     padding: 13px 0;
     cursor: pointer;
+    &:hover {
+    box-shadow: 1px 2px 9px #b1aaf4;
+  }
 `;
     
 const Image = styled('img') ({

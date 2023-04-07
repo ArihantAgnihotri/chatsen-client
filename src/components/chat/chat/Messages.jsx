@@ -12,8 +12,7 @@ import Footer from './Footer';
 
 const Wrapper = styled(Box)`
      ${'' /* background-image: url(${'https://gachi.gay/lcJBw'}); */}
-     background-image: url(${'https://gachi.gay/vOtyh'});
-
+     background-image: url(${'https://www.transparenttextures.com/patterns/diagonal-striped-brick.png'});
     background-size: 30%;
 `;
 
