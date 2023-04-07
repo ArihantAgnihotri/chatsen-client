@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',Helvetica,Lucida Grande,Arial,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+::-webkit-scrollbar {
+  width: 6px!important;
+  height: 6px!important;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,.2);
+}
+::-webkit-scrollbar-track {
+  background: hsla(0,0%,100%,.1);
+}
+
+
+
+/* TITLE ANIMATION */
+
+.title {
+  color: #004d80;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 20px;
+  cursor: pointer;
+  margin : auto;
+  padding : 2%;
+}
+
+h1 span {
+  transition: 0.3s ease-out;
+}
+.title:hover .title-chat{
+  letter-spacing: 25px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+}
+.title:hover .title-sen {
+  letter-spacing: 25px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+}
+.title:hover span {
+  color: #0074c2;
+}
+
+
+
+/* Typing animation text */
+
+.type-animation {
+  
+  color: #004d80;
+  font-weight: bold!important;
+  font-family: "Anonymous Pro", monospace!important;
+  letter-spacing: 7px!important;
+  overflow: hidden;
+  border-right: 2px solid hsl(0, 0%, 0%);
+  white-space: nowrap;
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
+  
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 710px;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: hsl(0, 0%, 80%);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.small{
+  font-size: 20px;
+  letter-spacing: 0 !important;
+
+}
